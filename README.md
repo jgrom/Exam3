@@ -1,41 +1,22 @@
-# HoBook - Hotel de luxe
+# Portail intranet ( MMA )
 
-### _Hobook est un site de réservation d'hotel comme booking.com (mais en mieux :D )._
+Création d'un portail intranet pour répertorier et organiser les différents documents des formateurs et outils de formation.
 
+## Étapes
 
----
-Vous devrez : 
+Le projet se déroule pendant 8 semaines : du 8/11/2016 au 17/02/2017.
 
-- Respecter le design simple (on avait pas d'argent pour un graphiste) : Home avec tout les hotels une page par hotel qui reprendra chaque chambre disponible et un formulaire d'ajout de commentaire.
-- Intégrer les données déjà existante (hotel-data.json)
-- Réaliser le front du site web en angular
-- Réaliser le back du site web en Node/Express
-- Utiliser une base de données MongoDB
-- Bonus : Faire l'authentification
+## Technos
 
----
-### Front 
+* **Materialize** : Responsive CSS framework
+* **AngularJS** - JavaScript MVW framework
+* **Express** - Web application framework for Node.js
+* **MongoDB** - Document-oriented database program
+* **Gulp** - Task runner
+* **JWT** - Authorization layer
 
-- Utilisation de boostrap ou materialize (attention pour materialize et angular : utiliser en plus angular-materialize)
-- Utilisation de NgRoute
-- Avoir un controller par page html
-- Faire une factory pour aller chercher les données des hotels (même si vous ne faite que du front) (aller chercher le fichier json)
-- Bonus : Authentification
-### Pour les personnes qui se sont focalisés sur le front vous pouvez faire que le front en angular.
-
----
-
-### Back
-
-- Utilisation de Express
-- Création des Schémas en fonction du json fournis
-- Liée le back et le front
-- Bonus : Authentification
-
----
-
-# Bonne chance à tous
-
-
-
-
+## Team Wilders
+* **Alexis** - alexis.hvp@gmail.com
+* **Daphné** - daphne.bordel@gmail.com
+* **Jérôme** - jgromdev@gmail.com
+* **Matthieu** - matthieu.rougeolle@gmail.com
